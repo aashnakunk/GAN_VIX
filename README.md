@@ -6,3 +6,4 @@ This repo examines the application of Generative Adversarial Networks (GANs) to 
 This is a very small dataset, i.e., it doesn't really have features other than data and the VIX value, which makes generating real data even harder. A distance based loss like Wasserstein loss, with the WGAN architecture seemed to be the best model for this particular dataset, and we further tuned its hyperparameters and explored options like training the discriminator more than the generator in order to make our WGAN model perform better. 
 
 
+For a deeper understanding, I've provided a report in this repo which you could read.
