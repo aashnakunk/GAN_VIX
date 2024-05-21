@@ -5,5 +5,12 @@ This repo examines the application of Generative Adversarial Networks (GANs) to 
 
 This is a very small dataset, i.e., it doesn't really have features other than data and the VIX value, which makes generating real data even harder. A distance based loss like Wasserstein loss, with the WGAN architecture seemed to be the best model for this particular dataset, and we further tuned its hyperparameters and explored options like training the discriminator more than the generator in order to make our WGAN model perform better. 
 
+The best predictions were done by our Enhanced WGAN model and the real v/s generated data looked like this at the last epoch: 
+
+<img width="678" alt="Screenshot 2024-05-20 at 11 23 32 PM" src="https://github.com/aashnakunk/GAN_VIX/assets/58456702/de9483d5-2deb-4103-b6da-9b125b9d5b3b">
+
+This is a very decent prediction, especially for the limited two-column dataset we have. 
 
 For a deeper understanding, I've provided a report in this repo which you could read.
+
+Any questions: aashnakunk@gmail.com
